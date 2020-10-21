@@ -25,6 +25,7 @@ int main(int argc, char **argv)
   ros::Rate loop_rate(1);
   ros::spinOnce();
   ros::Rate poll_rate(100);
+  
   float count = 0;
 
   while (ros::ok())
